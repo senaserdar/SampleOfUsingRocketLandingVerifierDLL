@@ -17,11 +17,11 @@ class Program
         };
 
         // LandingAreaVerifier örneğini oluşturalım
-        LandingAreaVerifier verifier = new LandingAreaVerifier(input);
+        LandingAreaVerifier verifier = new LandingAreaVerifier(input, new int[0,0]);
 
         // Örnek kullanımlar:
         Console.WriteLine(verifier.VerifyLanding(3, 3)); // İniş için uygun
-        Console.WriteLine(verifier.VerifyLanding(10, 10)); // Platform dışı
+        Console.WriteLine(verifier.VerifyLanding(9, 9)); // Platform dışı
         Console.WriteLine(verifier.VerifyLanding(5, 5)); // İniş için uygun
         Console.WriteLine(verifier.VerifyLanding(5, 5)); // Çarpışma (çünkü zaten işaretlendi)
         Console.ReadLine();

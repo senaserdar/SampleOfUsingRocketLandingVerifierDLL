@@ -7,6 +7,6 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
     <ItemGroup>
-        <Reference Include="/Users/senaserdar/RiderProjects/RocketLandingVerifier/bin/Debug/net6.0/RocketLandingVerifier.dll" />
+        <Reference Include="/Users/senaserdar/RiderProjects/RocketLandingVerifier/obj/Debug/net6.0/RocketLandingVerifier.dll" />
     </ItemGroup>
 </Project>
